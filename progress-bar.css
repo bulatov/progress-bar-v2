@@ -1,0 +1,32 @@
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  padding: 10px 0;
+  background-color: white;
+  box-shadow: 0 0 3px darkgray;
+  border-radius: 3px;
+}
+
+.progress-bar__progress {
+  position: relative;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 1px darkgray;
+}
+
+.progress-bar__filler {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+
+.progress-bar__percentage {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font: 14px monospace;
+}
